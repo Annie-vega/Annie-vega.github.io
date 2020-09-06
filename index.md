@@ -6,5 +6,5 @@ layout: index
 title: home
 owner: Annie Vega
 desc: Welcome to my website, <br>I'm happy to share with you all the projects I'm involved with. <br>Thanks for being here. 
-bio:
+intro: Welcome to Conversation Starters 
 ---
