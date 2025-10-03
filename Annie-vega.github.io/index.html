@@ -1,5 +1,232 @@
----
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie Vega - Portfolio</title>
+    <meta name="description" content="Annie Vega's personal website - sharing thoughts, projects, and conversations about life, finance, and making a difference.">
+    <link rel="stylesheet" href="assets/css/modern.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Annie Vega</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#podcast" class="nav-link">Podcast</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hey there, I'm <span class="highlight">Annie</span></h1>
+                <p class="hero-subtitle">I get easily excited about things around me, love to notice the beauties of the world, and am constantly looking for ways to help and give back.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Getting to know the person behind the projects</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>It's a hard process to try to introduce yourself away from your job, what you studied, where you live, or your love life, but I'd like to share some details about me.</p>
+                    
+                    <p><em>I get easily excited about things around me</em> - I love to notice the beauties of the world around us and take attentive note of the things I'm constantly grateful for. I'm also aware of my privileges and constantly looking for the best possible way to help and give back.</p>
+                    
+                    <p><em>One of my biggest motivations in life is to help and give back</em> - that's why I'm committed to helping as much as possible, including making some hard decisions such as the ones I discuss here. This path of looking for ways to help has been my ultimate "life guide" and the experience has been incredibly rewarding and emotionally challenging.</p>
+                    
+                    <p><em>I try to be present and conscious about my surroundings</em> - all this has ended up with more questions than I could answer. Hopefully, this website can help with some answers and generate even more questions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Blog Posts</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>Podcast Episodes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Conversation Starters Blog</h2>
+                <p>Deep thoughts and rabbit holes</p>
+            </div>
+            <div class="blog-content">
+                <p class="blog-description">A blog where I share some trains of thoughts, deep internal and external debates, ideas that resonated with me, or what I like to call, very deep rabbit holes. These ideas evolved while talking with the people around me and I would like you to join the conversation.</p>
+                <div class="blog-preview">
+                    <div class="blog-card">
+                        <div class="blog-card-content">
+                            <h3>Sample Blog Post</h3>
+                            <p>This is a preview of the type of content you'll find in my blog...</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-card-content">
+                            <h3>Another Insight</h3>
+                            <p>Sharing thoughts on life, purpose, and making a difference...</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-cta">
+                    <a href="#" class="btn btn-primary">View All Posts</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast" class="podcast">
+        <div class="container">
+            <div class="section-header">
+                <h2>Écouter Podcast</h2>
+                <p>Making finances accessible for everyone</p>
+            </div>
+            <div class="podcast-content">
+                <div class="podcast-description">
+                    <p>A community and podcast where we make finances and business accessible for everyone. We're a group of young economists with a lot of ideas to share and explore with everyday people, discussing news, trends, indicators and more.</p>
+                </div>
+                <div class="podcast-features">
+                    <div class="feature">
+                        <i class="fas fa-microphone"></i>
+                        <h3>Regular Episodes</h3>
+                        <p>Weekly discussions on financial topics</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Driven</h3>
+                        <p>Built by and for young economists</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Trend Analysis</h3>
+                        <p>Breaking down complex financial concepts</p>
+                    </div>
+                </div>
+                <div class="podcast-cta">
+                    <a href="#" class="btn btn-primary">Listen Now</a>
+                    <a href="#" class="btn btn-secondary">Join Community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>I'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>anniev1307@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>@Annie-vega</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <div>
+                            <h3>Twitter</h3>
+                            <p>@agvegar</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@_anniev_</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Annie Vega. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:anniev1307@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/Annie-vega"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/agvegar"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/_anniev_"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/modern.js"></script>
+</body>
+</html>
